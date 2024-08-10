@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICK FITNESS </title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: antiquewhite;
+        margin: 0px;
+
+        background: url("6.jpg");
+        font-family: 'Oswald', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 12px;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+
+    .left img {
+        width: 150px;
+    }
+
+    .left:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: auto;
+        /* border: 2px solid rgb(137, 23, 23); */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 12px;
+
+        text-decoration: none;
+        top: 0px;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+        font-family: 'Oswald',cursive;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: antiquewhite;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        display: inline-block;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 24px 12px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: aqua;
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-size: 20px;
+        margin: 4px 9px;
+        padding: 4px 14px;
+        background-color: black;
+        color: antiquewhite;
+        border: 2px solid purple;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Oswald', cursive;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: 'Oswald',cursive;
+    }
+
+    .btn:hover {
+        background-color: aqua;
+        color: blanchedalmond;
+    }
+
+    .container {
+        color: antiquewhite;
+        border: 2px solid rgb(254, 254, 254);
+        margin: 20px 150px;
+        padding: 30px 40px;
+        width: 33%;
+        border-radius: 12px;
+    }
+    .container button{
+        margin: auto;
+        display: block;
+        width: 23%;
+    }
+
+   .container h2 {
+        text-align: center;
+        font-family: 'Oswald',cursive;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo7.jpg" alt="">
+            <div>Ricks Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="ab.html">About Us</a></li>
+                <li><a href="loading.html">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>JOIN NOW FOR THE BEST GYM IN BBSR</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone no">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
